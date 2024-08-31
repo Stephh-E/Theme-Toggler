@@ -1,8 +1,9 @@
 :root {
 
     --backgroundColour: darkgrey;
-
     --fontColour: white;
+
+    --theme-100: #4641d1;
 
 }
 
@@ -11,10 +12,38 @@
 body {
 
     background-color: var(--backgroundColour);
-
     color: var(--fontColour);
 
 }
+
+.diceImage {
+    width: 20dvw;
+
+    position:relative;
+    text-align: center;
+
+    img { 
+        width: 100%;
+
+    }
+    p {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+#diceRollArea
+/* 
+Example JS
+
+body.style.backgroundColor = "blue";
+
+document.style.someVariable = "blue";
+
+*/
 
 
 
